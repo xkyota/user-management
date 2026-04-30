@@ -1,0 +1,17 @@
+[
+  { "id": 1, "name": "Striped T-Shirt", "price": "$25", "img": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300&h=360&fit=crop" },
+  { "id": 2, "name": "Denim Jacket", "price": "$89", "img": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=300&h=360&fit=crop" },
+  { "id": 3, "name": "Chino Pants", "price": "$49", "img": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=300&h=360&fit=crop" },
+  { "id": 4, "name": "Sneakers", "price": "$69", "img": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300&h=360&fit=crop" },
+  { "id": 5, "name": "Floral Dress", "price": "$59", "img": "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=300&h=360&fit=crop" },
+  { "id": 6, "name": "Leather Belt", "price": "$19", "img": "https://images.unsplash.com/photo-1624222247344-550fb60583dc?w=300&h=360&fit=crop" },
+  { "id": 7, "name": "Wool Sweater", "price": "$79", "img": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=300&h=360&fit=crop" },
+  { "id": 8, "name": "Baseball Cap", "price": "$15", "img": "https://images.unsplash.com/photo-1521369909029-2afed882baee?w=300&h=360&fit=crop" },
+  { "id": 9, "name": "Cargo Shorts", "price": "$39", "img": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=300&h=360&fit=crop" },
+  { "id": 10, "name": "Trench Coat", "price": "$129", "img": "https://images.unsplash.com/photo-1539533018447-63fcce2678e3?w=300&h=360&fit=crop" },
+  { "id": 11, "name": "Button-Up Shirt", "price": "$35", "img": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=300&h=360&fit=crop" },
+  { "id": 12, "name": "Mini Skirt", "price": "$29", "img": "https://images.unsplash.com/photo-1583496661160-fb5886a13d77?w=300&h=360&fit=crop" },
+  { "id": 13, "name": "Hoodie", "price": "$45", "img": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=300&h=360&fit=crop" },
+  { "id": 14, "name": "Ankle Boots", "price": "$99", "img": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=300&h=360&fit=crop" },
+  { "id": 15, "name": "Sunglasses", "price": "$29", "img": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=300&h=360&fit=crop" }
+]

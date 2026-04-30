@@ -1,0 +1,25 @@
+.site-header{
+  background: linear-gradient(90deg,#f7f7f9,#ffffff);
+  border-bottom: 1px solid #e6e6e9;
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  max-width:1100px;
+  margin:0 auto;
+  padding:18px 20px;
+}
+.logo{
+  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+  font-size:1.4rem;
+  color:#222;
+  margin:0;
+}
+.nav a{
+  color:#333;
+  text-decoration:none;
+  margin-left:18px;
+  font-size:0.95rem;
+}
+.nav a:hover{ text-decoration:underline; }

@@ -1,16 +1,56 @@
-# React + Vite
+# User Management & Clothing Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A non-functional React + Vite project showcasing a user authentication system with a clothing shop interface.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project demonstrates a multi-page application with user authentication (Login/Registration) and a non-functional clothing e-commerce shop. The app uses React Router for navigation and includes reusable components for modular design.
 
-## React Compiler
+### Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Authentication Pages**: Login and Registration components
+- **Shop Interface**: Non-functional clothing shop with 15 items loaded from `clothes.json`
+- **Responsive Layout**: Header with navigation, shop product grid, and footer
+- **Mock Data**: All clothing items sourced from `src/data/clothes.json`
 
-## Expanding the ESLint configuration
+### Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+│   ├── Header.jsx        # Navigation header
+│   ├── Shop.jsx          # Product grid (loads from JSON)
+│   ├── Footer.jsx        # Site footer
+│   ├── LogIn.jsx         # Login page
+│   └── Registration.jsx  # Registration page
+├── styles/
+│   ├── header.css        # Header styling
+│   ├── shop.css          # Shop grid and product cards
+│   ├── footer.css        # Footer styling
+│   ├── base.css          # Base styles
+│   └── registration.css  # Auth form styles
+├── data/
+│   └── clothes.json      # 15 clothing items (names, prices, images)
+├── App.jsx               # Main app component (renders Header/Shop/Footer)
+└── main.jsx              # Router setup with Auth pages
+```
+
+### Tech Stack
+
+- **React** - UI library
+- **Vite** - Build tool
+- **React Router DOM** - Client-side routing
+- **CSS** - Styling
+
+### Getting Started
+
+```bash
+npm install
+npm run dev
+```
+
+The app routes to `/` (Shop), `/login`, and `/register` pages.
+
+---
+
+*This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.*
